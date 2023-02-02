@@ -106,8 +106,6 @@ export default {
                 var newTodoTitle = document.getElementById('newTodoTitle');
                 newTodoTitle.focus();
             }, 500);
-
-            console.log(newTodoTitle);
         },
         closeDialog() {
             this.dialogVisible = false;
@@ -202,8 +200,6 @@ export default {
             todo.key = todo.id;
             todo.date = this.dateNewTodo;
             this.todos.push(todo);
-            console.log(this.todos);
-
             this.dialogVisible = false;
         },
     },

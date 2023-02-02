@@ -59,7 +59,8 @@ export default {
             };
         },
         getDate(date) {
-            this.$emit('cell-click', date.toString().substring(0, 10));
+            console.log(date.toString().substring(0, 15));
+            this.$emit('cell-click', date.toString().substring(0, 15));
         },
     },
     computed: {
