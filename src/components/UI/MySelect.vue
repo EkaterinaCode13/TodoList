@@ -33,7 +33,6 @@ export default {
 
 <style scoped>
 select {
-    margin-right: 25px;
     color: white;
     border-color: #125588;
     background-color: #125588;
