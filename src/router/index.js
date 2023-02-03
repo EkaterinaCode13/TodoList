@@ -5,15 +5,15 @@ import About from '../pages/About.vue';
 
 const routes = [
     {
-        path: '/',
+        path: '/todolist',
         component: Main,
     },
     {
-        path: '/todos',
+        path: '/todolist/todos',
         component: TodoPage,
     },
     {
-        path: '/about',
+        path: '/todolist/about',
         component: About,
     },
 ];

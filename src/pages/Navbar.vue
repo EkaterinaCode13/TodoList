@@ -1,9 +1,11 @@
 <template>
     <div class="navbar">
-        <div class="logo" @click="$router.push('/')">Твой планер</div>
+        <div class="logo" @click="$router.push('/todolist')">Твой планер</div>
         <div class="navbar-btns">
-            <a @click="$router.push('/todos')">Список дел</a>
-            <a style="margin-left: 15px" @click="$router.push('/about')"
+            <a @click="$router.push('/todolist/todos')">Список дел</a>
+            <a
+                style="margin-left: 15px"
+                @click="$router.push('/todolist/about')"
                 >Описание</a
             >
         </div>
